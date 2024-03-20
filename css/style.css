@@ -19,6 +19,10 @@ html, body{
     justify-content: center;
 }
 
+.justify-around{
+    justify-content: space-around;
+}
+
 .align-center{
     align-items: center;
 }
@@ -31,13 +35,11 @@ html, body{
 }
 
 .calculator{
-    height: 300px;
-    width: 100px;
     background-color: gray;
 }
 
 .boosio, .display{
-    height: 80px;
+    height: 60px;
 }
 
 .display{
@@ -45,10 +47,31 @@ html, body{
     flex-direction: row-reverse;
 }
 
-.boosio{
-    line-height: 80px;
-}
-
 .zero{
     color: rgb(5, 212, 5);
+}
+
+.col-right{
+    height: 180px;
+    flex-direction: column;
+}
+
+.tasto{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.tasto-right{
+    padding: 15px 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.col-zero{
+    width: 60%;
+}
+
+.col-equal{
+    width: 40%;
 }
