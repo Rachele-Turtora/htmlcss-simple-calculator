@@ -27,6 +27,22 @@ html, body{
     align-items: center;
 }
 
+.bg-gray{
+    background-color: rgb(186, 186, 186);
+}
+
+.bg-lightblue{
+    background-color: rgb(14, 149, 193);
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.white{
+    color: white;
+}
+
 /* END UTILITY-CLASSES */
 
 .container{
@@ -35,11 +51,16 @@ html, body{
 }
 
 .calculator{
-    background-color: gray;
+    background: linear-gradient(to left, rgb(237, 236, 236), rgb(213, 213, 213));
+    border-radius: 10px;
+}
+
+.boosio span{
+    font-size: 22px;
 }
 
 .boosio, .display{
-    height: 60px;
+    height: 80px;
 }
 
 .display{
@@ -49,29 +70,38 @@ html, body{
 
 .zero{
     color: rgb(5, 212, 5);
+    padding-right: 30px;
+    font-size: 24px;
+}
+
+.keyboard{
+    padding: 20px;
 }
 
 .col-right{
-    height: 180px;
     flex-direction: column;
 }
 
-.tasto{
+
+.key{
     padding: 20px;
-    margin: 10px;
-    border: 1px solid black;
 }
 
-.tasto-right{
+.key-right{
     padding: 15px 20px;
+}
+
+.key, .key-right{
     margin: 10px;
-    border: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
 }
 
 .col-zero{
-    width: 60%;
+    width: 70%;
 }
 
 .col-equal{
-    width: 40%;
+    width: 30%;
 }
