@@ -23,6 +23,10 @@ html, body{
     justify-content: space-around;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .align-center{
     align-items: center;
 }
@@ -82,20 +86,22 @@ html, body{
     flex-direction: column;
 }
 
-
 .key{
-    padding: 20px;
+    padding: 16px 20px;
 }
 
 .key-right{
-    padding: 15px 20px;
+    padding: 8px 18px;
 }
 
 .key, .key-right{
     margin: 10px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
+    border-top: 1px solid rgb(186, 186, 186);
+    border-right: 1px solid rgb(186, 186, 186);
     border-radius: 3px;
+    font-size: 18px;
 }
 
 .col-zero{
