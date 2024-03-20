@@ -4,3 +4,51 @@
     box-sizing: border-box;
     font-family: "Orbitron", sans-serif;
 }
+
+html, body{
+    height: 100%;
+}
+
+/* UTILITY-CLASSES */
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* END UTILITY-CLASSES */
+
+.container{
+    height: 100%;
+    flex-direction: column;
+}
+
+.calculator{
+    height: 300px;
+    width: 100px;
+    background-color: gray;
+}
+
+.boosio, .display{
+    height: 80px;
+}
+
+.display{
+    background-color: black;
+    flex-direction: row-reverse;
+}
+
+.boosio{
+    line-height: 80px;
+}
+
+.zero{
+    color: rgb(5, 212, 5);
+}
