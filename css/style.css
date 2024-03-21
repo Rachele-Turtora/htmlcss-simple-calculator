@@ -91,7 +91,7 @@ html, body{
 }
 
 .key-right{
-    padding: 8px 18px;
+    padding: 8px 18px 8px 20px;
 }
 
 .key, .key-right{
@@ -105,9 +105,9 @@ html, body{
 }
 
 .col-zero{
-    width: 70%;
+    width: calc(100% / 3 * 2 - 10px);
 }
 
 .col-equal{
-    width: 30%;
+    width: calc(100% / 3 - 10px);
 }
